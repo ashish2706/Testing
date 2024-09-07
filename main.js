@@ -10,6 +10,7 @@ aws_region = 'ap-south-1';
 AWS.config.region = aws_region; 
 
 AWS.config.apiVersions = {
+    
     cognitoidentityserviceprovider: '2016-04-18'
 }; 
 
